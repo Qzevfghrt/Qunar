@@ -6,10 +6,10 @@
 
 ``` bash
 # install dependencies
-npm install
+npm install（安装相关的依赖，需要先安装nodejs）
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run dev（在系统命令行打开项目，输入该指令后会显示一个网址）
 
 # build for production with minification
 npm run build
