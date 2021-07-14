@@ -335,6 +335,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -343,8 +344,8 @@ export default {
   name: "vacationWrapper",
   data() {
     return {
-      show1: false,
-      show2: true,
+      show1: true,
+      show2: false,
     };
   },
   methods: {
@@ -365,6 +366,7 @@ export default {
   font-family: tahoma, arial, "Hiragino Sans GB", simsun, sans-serif;
   height: 623px;
 }
+
 
 .vacation_head {
   height: 44px;

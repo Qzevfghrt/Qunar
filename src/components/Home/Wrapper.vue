@@ -2,9 +2,11 @@
   <div class="wrapper">
     <flightWrapper></flightWrapper>
     <hotelWrapper></hotelWrapper>
-    <vacationWrapper></vacationWrapper>
+    <vacationWrapper ></vacationWrapper>
     <ticketWrapper></ticketWrapper>
+    <recommend></recommend>
     <travelWrapper></travelWrapper>
+    <bookWrapper></bookWrapper>
   </div>
 </template>
 
@@ -13,7 +15,9 @@ import flightWrapper from "./flightWrapper"
 import ticketWrapper from './ticketWrapper'
 import hotelWrapper from './hotelWrapper'
 import vacationWrapper from "./vacationWrapper"
-import travelWrapper from './travelWrapper.vue'
+import travelWrapper from './travelWrapper'
+import bookWrapper from './bookWrapper'
+import recommend from './recommend'
 export default {
   name: "Wrapper",
   components: {
@@ -22,6 +26,8 @@ export default {
     hotelWrapper,
     vacationWrapper,
     travelWrapper,
+    bookWrapper,
+    recommend,
   },
 };
 </script>
@@ -29,7 +35,7 @@ export default {
 
 <style>
  .wrapper{
-        border: 1px solid red;
         height: 3181px;
     }
+
 </style>

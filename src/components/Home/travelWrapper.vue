@@ -28,19 +28,19 @@
       <div class="tab">
         <ul class="travel_nav">
           <li v-on:mouseenter="enter1()">
-            <a href="#nowhere">趣味亲子游</a>
+            <a href="#nowhere" v-bind:class="show1 ? 'active' : 'unactive'">趣味亲子游</a>
           </li>
           <li v-on:mouseenter="enter2()">
-            <a href="#nowhere">旅游也要拍大片</a>
+            <a href="#nowhere" v-bind:class="show2 ? 'active' : 'unactive'">旅游也要拍大片</a>
           </li>
           <li v-on:mouseenter="enter3()">
-            <a href="#nowhere">旅行邂逅文艺范儿</a>
+            <a href="#nowhere" v-bind:class="show3 ? 'active' : 'unactive'">旅行邂逅文艺范儿</a>
           </li>
           <li v-on:mouseenter="enter4()">
-            <a href="#nowhere">韵味古城游</a>
+            <a href="#nowhere" v-bind:class="show4 ? 'active' : 'unactive'">韵味古城游</a>
           </li>
           <li v-on:mouseenter="enter5()">
-            <a href="#nowhere">畅游海岛好时光</a>
+            <a href="#nowhere" v-bind:class="show5 ? 'active' : 'unactive'">畅游海岛好时光</a>
           </li>
         </ul>
       </div>
@@ -673,7 +673,7 @@ export default {
   font-size: 12px;
 }
 
-.wrapper_travel .travel_head .tab ul li a:hover {
+.wrapper_travel .travel_head .tab ul li .active {
   background: #00d0d4;
   color: #fff;
   border-radius: 5px;

@@ -7,7 +7,7 @@
       </li>
       <li class="inline_block">
         <span>或</span>
-        <a href="#nowhere" class="q_head_login">免费注册</a>
+        <a href="/#/loginOn" class="q_head_login" target="_blank">免费注册</a>
       </li>
       <li class="inline_block">
         <span class="q_head_line">|</span>
